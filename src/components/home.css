@@ -1,0 +1,126 @@
+
+.btn1{
+    display: flex;
+    justify-content: end;
+    transform: translate(-10%);
+    gap: 1rem;
+}
+.bt1{
+   padding: 5px;
+   border: none;
+   width: 5%;
+    background-color: rgb(26, 100, 210);
+    transform: translate(0%,110%);
+  text-decoration: none;
+  text-align: center;
+    color: rgb(255, 255, 255);
+}
+.bt2{
+    padding: 10px;
+    border: none;
+    width: 5%;
+    background-color: white;
+     transform: translate(60%,300%);
+     width: 10%;
+     color: blue;
+ }
+ .btt{
+   transform: translate(160%,-50%);
+   padding: 10px;
+   background-color: transparent;
+   border: none;
+   color: blue;
+ }
+ .container1{
+   padding-bottom: 10px;
+    width: 79.6%;  
+    transform: translate(13%,20%);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  
+ }
+ .con{
+    margin: 20px;
+    text-align: center;
+   margin-top: -5px;
+   
+  }
+ .table{
+   border-collapse: collapse;
+   border-color: rgb(234, 227, 227);
+   }
+ 
+   .dash{
+    transform: translate(12.9%,60%);
+    border-left: 3px solid black;
+    padding-left: 10px;
+    width: 80%;
+    position: fixed ;
+ }
+.search{
+    display: flex;
+    justify-content: end;
+    transform: translate(-1.7%,-50%);
+}
+ .ser{
+    border: 1px solid rgb(111, 109, 109);
+   padding: 3px;
+ }
+
+ .btn2{
+    transform: translate(-5%,-250%);
+ }
+ .htd{
+   padding: 5px;
+ }
+ .hth{
+   padding: 10px;
+ border-bottom: 1px solid black;
+ }
+ .hrr{
+   transform: translate(1.1%,-1300%);
+background-color: rgba(255, 255, 255, 0);
+  width: 97%;
+ }
+
+ .fa{
+   transform: translate(-50%,17%);
+   color: white;
+ }
+
+.parent{
+  height: 94vh;
+   transform: translate(0%,10%);
+  
+}
+
+.bt1:hover{
+  background-color: rgba(0, 0, 255, 0.652);
+}
+
+@media (max-width: 768px) {
+  table {
+    display: block;
+    overflow-x: auto;
+  }
+
+  th, td {
+    white-space: nowrap;
+  }
+
+  tbody, tr, td {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  td {
+    flex-basis: 50%; 
+  }
+}
+.btt:focus{
+  background-color: rgba(0, 0, 255, 0.652);
+  color: white;
+}
+.bt2:focus{
+  background-color: rgba(0, 0, 255, 0.652);
+  color: white;
+}
